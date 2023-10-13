@@ -33,7 +33,7 @@ body {
     display:flex;
     justify-content: space-between;
     flex-direction:column;
-    padding-block: var(--space-2) var(--space-4);
+    /*padding-block: var(--space-2) var(--space-4);*/
   
      
   }
@@ -47,6 +47,10 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+
+i {
+  color:#e1c131;
+}
 
 
 /* Logo image size */
@@ -64,7 +68,8 @@ body {
 
 .header-icons img {
   width: 20px;
-  height:20px;
+  height: 20px;
+  opacity: 1; /* Initial opacity */
   transition: opacity 0.5s;
 }
 
@@ -111,7 +116,7 @@ a:hover {
 
 .button-hero {
   display:flex;
-  font-size: 15px; /* Adjust the font size as needed for the button */
+  font-size: 15px; 
   padding: 8px;
   border-radius: 8px;
   margin-top: 15px;
@@ -135,6 +140,7 @@ a:hover {
 }
 
 /* Main Section */
+
 
 
 
