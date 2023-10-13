@@ -135,8 +135,7 @@ a:hover {
 .hero-right img {
   max-width: 670px; /* Adjust the width as needed */
   height:500px;
-  margin:60px;
-  padding:20px;
+  margin: 60px 0 20px 60px;
 }
 
 /* Main Section */
