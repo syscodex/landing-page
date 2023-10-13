@@ -43,7 +43,7 @@ body {
     color:rgba(255, 255, 255, 0.982);
     background-color: #fffefc;
     background-image: linear-gradient(315deg, #f8f0de 0%, #fffefc 74%);
-    padding:20px 0px 20px;
+    padding: 20px 0;
     justify-content: space-between;
     align-items: center;
   }
