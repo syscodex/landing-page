@@ -47,6 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: auto;
+    flex-shrink: 0;
   }
 
 i {
@@ -65,6 +66,7 @@ i {
   display:flex;
   gap:30px;
   margin-right: 45px;
+  flex-shrink: 0;
 }
 
 .header-icons img {
@@ -280,53 +282,60 @@ a:hover {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 /*call to action*/
-
-
-
-.header-cta {
-
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
- 
-}
-.container-cta {
-  justify-content: center;
-  align-content: center;
+.cta-wrapper {
+  padding:150px;
   
 }
+
+.cta-wrapper .container-cta {
+  display:flex;
+  flex-direction: column;
+}
+
+.header-cta {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
 .text {
   margin-bottom: 16px;
+  line-height: 1;
 }
-.modal {
+.cta {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 20px;
+  padding: 50px;
   margin: auto;
   background: white;
-  max-width: 100%; /* Ensure the modal doesn't exceed the viewport width */
+  max-width: 100%; 
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 
-
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  
 }
 
 button.sign-up {
-  background: rgb(182, 211, 40);
+  display:flex;
+  flex-direction: column;
+  background: #f6d025;
   border: 1px solid royalblue;
-  color: white;
+  color:#020303;
+  margin:auto;
+  
 }
 
 .footer {
+  line-height: 1;
   text-align: center;
-  padding: 35px;
+  padding: 15px;
   margin:auto;
 }
 
